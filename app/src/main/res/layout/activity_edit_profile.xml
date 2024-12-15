@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EditProfileActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/titlebar"
+            layout="@layout/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- RecyclerView for the list -->
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            app:layout_constraintTop_toBottomOf="@id/titlebar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="30dp"
+                    >
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_avatar"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/default_avatar"
+                        />
+
+                    <View
+                        android:id="@+id/btn_change_avatar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_add_circle"
+                        android:layout_gravity="bottom|end"
+                        />
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/edt_fullname"
+                    style="@style/input_style"
+                    android:drawableStart="@drawable/ic_person"
+                    android:hint="@string/fullname" />
+
+
+                <EditText
+                    android:id="@+id/edt_username"
+                    style="@style/input_style"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/ic_person"
+                    android:hint="@string/username" />
+
+                <EditText
+                    android:enabled="false"
+                    android:id="@+id/edt_email"
+                    style="@style/input_style"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/mail"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    style="@style/input_style"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:hint="@string/phone" />
+
+                <EditText
+                    android:id="@+id/edt_date_of_birth"
+                    style="@style/input_style"
+                    android:layout_marginTop="10dp"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:hint="Ngày sinh" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/btn_submit"
+                    style="@style/button_style"
+                    android:layout_gravity="center"
+                    android:text="Lưu" />
+
+            </LinearLayout>
+
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
