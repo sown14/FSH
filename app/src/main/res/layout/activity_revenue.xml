@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/titlebar"
+        layout="@layout/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+    <EditText
+        style="@style/input_style"
+        android:id="@+id/edt_start_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn ngày bắt đầu"
+        android:focusable="false"
+        android:inputType="none"
+        android:drawableStart="@android:drawable/ic_menu_my_calendar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <EditText
+        style="@style/input_style"
+        android:id="@+id/edt_end_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chọn ngày kết thúc"
+        android:focusable="false"
+        android:inputType="none"
+        android:drawableStart="@android:drawable/ic_menu_my_calendar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        style="@style/button_style"
+        android:layout_gravity="center"
+        android:text="Tra cứu" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:text="Xem biểu đồ doanh thu" />
+
+</LinearLayout>
