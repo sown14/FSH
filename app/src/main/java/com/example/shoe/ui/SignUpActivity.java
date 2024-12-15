@@ -46,7 +46,7 @@ public class SignUpActivity extends AppCompatActivity {
         edtRepass = findViewById(R.id.edt_repass);
         edtPhone = findViewById(R.id.edt_phone);
         edtDateOfBirth = findViewById(R.id.edt_date_of_birth);
-        
+
         apiService = ApiClient.getInstance();
 
         _btnClickSignUp();
