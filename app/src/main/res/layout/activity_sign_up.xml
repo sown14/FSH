@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        style="@style/text_view_color_theme_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/create_account"
+        android:textSize="24sp" />
+
+    <TextView
+        style="@style/text_view_color_normal_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/application_name"
+        android:textColor="@color/teal_700"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <!-- Add ScrollView to make content scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/edt_fullname"
+                style="@style/input_style"
+                android:drawableStart="@drawable/ic_person"
+                android:hint="@string/fullname" />
+
+            <EditText
+                android:id="@+id/edt_username"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_person"
+                android:hint="@string/username" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/mail"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_phone"
+                android:hint="@string/phone" />
+
+            <EditText
+                android:id="@+id/edt_date_of_birth"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:hint="Ngày sinh" />
+
+            <EditText
+                android:id="@+id/edt_password"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/lock"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/edt_repass"
+                style="@style/input_style"
+                android:layout_marginTop="10dp"
+                android:drawableStart="@drawable/lock"
+                android:hint="@string/password_confirm"
+                android:inputType="textPassword" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                style="@style/button_style"
+                android:layout_gravity="center"
+                android:text="@string/signUp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
