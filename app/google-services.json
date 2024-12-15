@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "191657914513",
+    "project_id": "shoe-f65cf",
+    "storage_bucket": "shoe-f65cf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191657914513:android:596c1a78f75b99ad618f30",
+        "android_client_info": {
+          "package_name": "com.example.shoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191657914513-gv1nruv9932d8k8afknb5vqikpj44lh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoe",
+            "certificate_hash": "aedccd536414017602bed05b849b603f24a431a1"
+          }
+        },
+        {
+          "client_id": "191657914513-km5hflj8gfpqem3saffq2jiov58i6pl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsNs9CbpoXwmA32pCovasNsjkSSWyfMeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191657914513-km5hflj8gfpqem3saffq2jiov58i6pl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

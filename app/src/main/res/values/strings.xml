@@ -1,0 +1,253 @@
+<resources>
+    <string name="fullname">Họ tên</string>
+    <string name="username">Tên người dùng</string>
+
+    <string name="app_name">Wahoo</string>
+    <string name="application_name">Wahoo</string>
+    <string name="application_slogan">Mua hết ở Wahoo</string>
+    <string name="login">Đăng nhập</string>
+    <string name="application_avatar">Ảnh đại diện ứng dụng</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="greetings">Xin chào</string>
+    <string name="welcome_back">Chào mừng trở lại,</string>
+    <string name="enter_email_and_password_to_login"><![CDATA[Nhập tên đăng nhập & mật khẩu để đăng nhập]]></string>
+
+    <string name="forget_password">Quên mật khẩu ?</string>
+    <string name="or">Hoặc</string>
+    <string name="does_have_an_account">Chưa có tài khoản</string>
+    <string name="create_account">Tạo mới tài khoản</string>
+    <string name="loading">Loading…</string>
+    <string name="ok">OK</string>
+    <string name="add_account_infor_successfully">Thêm thông tin tài khoản thành công!</string>
+    <string name="success">Thành công!</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="attention">Chú ý</string>
+    <string name="login_successfully">Đăng nhập thành công</string>
+    <string name="oops_there_is_an_issue">Đã xảy ra sự cố, hãy thử lại</string>
+    <string name="home">Trang chủ</string>
+    <string name="category">Danh mục</string>
+    <string name="personality">Cá nhân</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="are_you_sure_about_that">Bạn có chắc chắn không ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="what_do_you_want_to_search_today">Hôm nay bạn muốn tìm gì ?</string>
+    <string name="gaming">ADIDAS</string>
+    <string name="student">QC</string>
+    <string name="office">NIKE</string>
+    <string name="graphic">Â</string>
+    <string name="what_does_we_have_today">Hôm nay có gì hot ?</string>
+    <string name="product_default_name">tên giay</string>
+    <string name="product_default_price">14.000.000 đ</string>
+    <string name="product_default_remaining">Còn: 10</string>
+    <string name="out_of_stock">Hết hàng</string>
+    <string name="lightweight">Mỏng nhẹ</string>
+    <string name="filter">Lọc</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="product_filter">Lọc sản phẩm</string>
+    <string name="complete">Hoàn tất</string>
+    <string name="manufacturer">Nhà sản xuất</string>
+    <string name="price">Giá</string>
+    <string name="screen_size">KSize</string>
+    <string name="chatlieu">Chất liệu</string>
+    <string name="graphic_card">Hãng</string>
+    <string name="demand">Nhu cầu</string>
+    <string name="priceFrom">Gía từ</string>
+    <string name="priceTo">Đến giá</string>
+    <string name="to">đến</string>
+    <string name="screen_size_13_inch">34</string>
+    <string name="screen_size_15_6_inch">32</string>
+    <string name="screen_size_14_inch">29</string>
+    <string name="screen_size_17_3_inch">30</string>
+    <string name="giay1">Vải</string>
+    <string name="giay2">Sợi tổng hợp</string>
+    <string name="giay3">Da</string>
+    <string name="reset">Làm mới</string>
+    <string name="acer">KALA</string>
+    <string name="all">Tất cả</string>
+    <string name="asus">NIKE</string>
+    <string name="dell">ADIDAS</string>
+    <string name="hp">VT</string>
+    <string name="msi">AA</string>
+    <string name="nvidia">TQ</string>
+    <string name="amd">AMD</string>
+    <string name="Add_to_cart">Thêm vào giỏ hàng</string>
+    <string name="Buy_now">Mua ngay</string>
+    <string name="product_default_name_2">Ten giay</string>
+    <string name="specifications">Thông số kĩ thuật</string>
+    <string name="content">Mô tả sản phẩm</string>
+    <string name="similar_products">Sản phẩm tương tự</string>
+    <string name="product_default_content">mo ta giay</string>
+    <string name="manufacturer_2">Nhà sản xuất:</string>
+    <string name="screen_size_2">Trong lượng:</string>
+    <string name="cpu_2">Size:</string>
+    <string name="ram_2">Xuất xứ:</string>
+    <string name="graphic_card_2">Chất liệu:</string>
+    <string name="product_default_graphic_card">Giày</string>
+    <string name="rom">Loại:</string>
+    <string name="rom_2">Hãng</string>
+    <string name="product_default_rom">Giày</string>
+    <string name="suitable_for_demand">Phù hợp cho nhu cầu:</string>
+    <string name="review">Bình luận</string>
+    <string name="quantity">Số lượng</string>
+    <string name="quantity_2">Số lượng:</string>
+    <string name="one">1</string>
+    <string name="add_to_cart_successfully">Thêm vào giỏ hàng thành công</string>
+    <string name="fail">Thất bại</string>
+    <string name="can_not_find_match_products">Không tìm thấy sản phẩm tương ứng</string>
+    <string name="total_amount">Tổng cộng:</string>
+    <string name="total_amount2">Tổng cộng</string>
+    <string name="shipping_fee">Phí vận chuyển:</string>
+    <string name="zero_vnd">0đ</string>
+    <string name="my_cart">Giỏ hàng của bạn</string>
+    <string name="confirm_cart">Thanh toán</string>
+    <string name="you_maybe_like">Có thể bạn sẽ thích</string>
+    <string name="click_on_voucher">Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé</string>
+    <string name="there_is_nothing_in_your_cart">Hông có gì trong giỏ hết…\n Lướt Wahoo, lựa hàng ngay đi</string>
+    <string name="checkout">Thanh toán</string>
+    <string name="nguyen_thanh_phone">Nguyễn A</string>
+    <string name="default_phone">0366777777</string>
+    <string name="default_address"> TP.HCM, Việt Nam</string>
+    <string name="delivery_address">Địa chỉ giao hàng</string>
+    <string name="shipping_options">Hình thức giao hàng</string>
+    <string name="standard">Tiêu chuẩn</string>
+    <string name="rapid">Siêu tốc</string>
+    <string name="economical">Tiết kiệm</string>
+    <string name="x1">x1</string>
+    <string name="invoice">Hóa đơn</string>
+    <string name="merchandise_subtotal">Tiền hàng:</string>
+    <string name="default_shipping_date">Nhận hàng từ ngày 28-11 đến 30-11</string>
+    <string name="receiver_name">Tên người nhận</string>
+    <string name="address">Địa chỉ</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="save">Lưu lại</string>
+    <string name="are_you_sure_about_placing_order">Bạn có chắc chắn muốn đặt hàng không?</string>
+    <string name="checkout_successfully">Đặt hàng thành công</string>
+    <string name="thank_you_for_using_wahoo">Cảm ơn bạn đã mua hàng tại Wahoo</string>
+    <string name="please_prepare_enough_money_on_delivery_date">Vui lòng chuẩn bị số tiền tương ứng vào ngày giao hàng</string>
+    <string name="pretend_delivery_date">Ngày giao hàng dự kiến:</string>
+    <string name="for_more_information_about_your_order"><![CDATA[Để biết thêm chi tiết về trạng thái đơn hàng của bạn, vui lòng chọn Tài khoản > Đơn hàng của tôi]]></string>
+    <string name="watch_order">Xem đơn hàng</string>
+    <string name="default_delivery_date">Ngày 28–11 đến 31–11</string>
+    <string name="update_personal_information">Cập nhật thông tin cá nhân</string>
+    <string name="to_pay">Chờ thanh toán</string>
+    <string name="packed">Đã đóng gói</string>
+    <string name="being_transported">Đang vận chuyển</string>
+    <string name="done">Hoàn tất</string>
+    <string name="all_orders">Lịch sử mua hàng</string>
+    <string name="dark_mode">Chế độ ban đêm</string>
+    <string name="personal_information">Thông tin cá nhân</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="order_identifier">Mã đơn hàng:</string>
+    <string name="default_order_id">ce50316d5a6a46</string>
+    <string name="placed_order_date">Ngày đặt hàng:</string>
+    <string name="default_placed_order_date">31-07-2022</string>
+    <string name="status">Trạng thái:</string>
+    <string name="status2">Trạng thái</string>
+    <string name="buy_again">Mua lại</string>
+    <string name="unknown">Không xác định</string>
+    <string name="verified">Đã xác nhận</string>
+    <string name="order_information">Chi tiết hóa đơn</string>
+    <string name="order_content">Nội dung đơn hàng</string>
+    <string name="description">Mô tả</string>
+    <string name="provisional_calculation">Tạm tính:</string>
+    <string name="VAT_included_if_any">Đã bao gồm VAT nếu có</string>
+    <string name="signUp">Đăng ký</string>
+    <string name="have_an_account">Đã có tài khoản</string>
+    <string name="last_name">Họ</string>
+    <string name="first_name">Tên</string>
+    <string name="password_confirm">Xác nhận mật khẩu</string>
+    <string name="sign_up_successfully">Đăng ký thành công</string>
+    <string name="login_with_google_successfully">Đăng nhập bằng tài khoản Google thành công</string>
+    <string name="change_information_successfully">Thay đổi thông tin cá nhân thành công</string>
+    <string name="all_orders_admin">Quản lý đơn hàng</string>
+    <string name="all_products_admin">Quản lý sản phẩm</string>
+    <string name="all_order_admin">Quản lý đơn hàng</string>
+    <string name="enter_your_keyword">Nhập nội dung bạn muốn tìm kiếm</string>
+    <string name="remove">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="remove_successfully">Xóa thành công</string>
+    <string name="change_order_information">Thay đổi thông tin đơn hàng</string>
+    <string name="receiver_phone">Số điện thoại nhận hàng</string>
+    <string name="receiver_address">Địa chỉ nhận hàng</string>
+    <string name="create_at">Ngày tạo đơn</string>
+    <string name="update_at">Ngày cập nhật gần nhất</string>
+    <string name="change_order_information_successfully">Thay đổi thông tin đơn hàng thành công</string>
+    <string name="add_product_to_cart">Thêm sản phẩm vào giỏ hàng</string>
+    <string name="create_order_information">Tạo thông tin đơn hàng</string>
+    <string name="create_order_successfully">Tạo đơn hàng thành công</string>
+    <string name="product_default_cpu">Giày da chất</string>
+    <string name="button_add_product">Button Add Product</string>
+    <string name="keyword">Từ khóa</string>
+    <string name="go_back">Trở lại</string>
+    <string name="edit_product">Sửa thông tin sản phẩm</string>
+    <string name="product_name">Tên sản phẩm</string>
+    <string name="product_price">Giá sản phẩm</string>
+    <string name="product_remaining">Số lượng tồn</string>
+    <string name="ram">Size</string>
+    <string name="update_product_successfully">Cập nhật sản phẩm thành công</string>
+    <string name="create_product">Tạo mới sản phẩm</string>
+    <string name="create_product_successfully">Tạo sản phẩm mới thành công</string>
+    <string name="cancel_order_successfully">Huỷ đơn hàng thành công</string>
+    <string name="invalid_receiver_information">Thông tin người nhận không hợp lệ</string>
+    <string name="photo">Ảnh sản phẩm</string>
+    <string name="open_gallery">Mở thư viện ảnh</string>
+    <string name="product_avatar">Ảnh đại diện sản phẩm</string>
+    <string name="set_product_avatar">Đặt làm ảnh đại diện</string>
+    <string name="action_successfully">Thao tác thành công</string>
+    <string name="you_are_an_admin">Bạn là quản trị viên và không thể thực hiện hành động này!</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="title_activity_my_tabs">MyTabsActivity</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_profile">Tài khoản</string>
+    <string name="title_notifications">Thông báo</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="pending">Chờ lấy hàng</string>
+    <string name="waiting">Chờ xác nhận</string>
+    <string name="delivering">Chờ giao hàng</string>
+    <string name="completed">Đã giao</string>
+    <string name="canceled">Đã huỷ</string>
+
+</resources>
