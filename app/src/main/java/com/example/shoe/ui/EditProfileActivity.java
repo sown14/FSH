@@ -1,4 +1,4 @@
-package com.example.shoe.ui.voucherManagement;
+package com.example.shoe.ui;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
