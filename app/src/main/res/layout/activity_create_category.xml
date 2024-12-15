@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.CreateCategoryActivity">
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTheme"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/background_button_back"
+            android:minWidth="20dp"
+            android:minHeight="20dp"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Tạo loại sản phẩm"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/default_avatar"
+                />
+
+            <View
+                android:id="@+id/btn_change_avatar"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_add_circle"
+                android:layout_gravity="bottom|end"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:text="Tên"
+            style="@style/advanced_search_text_view" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            style="@style/input_style"
+            android:hint="Tên danh mục"
+            android:inputType="text"
+            android:textColor="@color/colorTextBlack" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <TextView
+            android:text="Mô tả"
+            style="@style/advanced_search_text_view" />
+
+        <EditText
+            android:id="@+id/edt_desc"
+            style="@style/input_style"
+            android:layout_height="150dp"
+            android:paddingTop="15dp"
+            android:gravity="top"
+            android:hint="Nhập mô tả"
+            android:inputType="textMultiLine"
+            android:textColor="@color/colorTextBlack" />
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        style="@style/button_style"
+        android:layout_gravity="center"
+        android:text="Tạo" />
+
+
+</LinearLayout>

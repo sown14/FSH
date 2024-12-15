@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EditCategoryActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.categoryManagement.CategoryManagementActivity">
+
+        <!-- Include the title bar layout -->
+        <include
+            android:id="@+id/titlebar"
+            layout="@layout/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- RecyclerView for the list -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            app:layout_constraintTop_toBottomOf="@id/titlebar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             >
+             <FrameLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginBottom="30dp"
+                 >
+
+                 <de.hdodenhof.circleimageview.CircleImageView
+                     android:id="@+id/img_avatar"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:src="@drawable/default_avatar"
+                     />
+
+                 <View
+                     android:id="@+id/btn_change_avatar"
+                     android:layout_width="24dp"
+                     android:layout_height="24dp"
+                     android:background="@drawable/ic_add_circle"
+                     android:layout_gravity="bottom|end"
+                     />
+             </FrameLayout>
+             <EditText
+                 android:id="@+id/edt_name"
+                 style="@style/input_style"
+                 android:hint="Tên danh mục"
+                 android:inputType="text"
+                 android:textColor="@color/colorTextBlack" />
+
+             <Space
+                 android:layout_width="match_parent"
+                 android:layout_height="15dp"/>
+
+             <TextView
+                 android:text="Mô tả"
+                 style="@style/advanced_search_text_view" />
+
+             <EditText
+                 android:id="@+id/edt_desc"
+                 style="@style/input_style"
+                 android:layout_height="150dp"
+                 android:paddingTop="15dp"
+                 android:gravity="top"
+                 android:hint="Nhập mô tả"
+                 android:inputType="textMultiLine"
+                 android:textColor="@color/colorTextBlack" />
+
+             <Space
+                 android:layout_width="match_parent"
+                 android:layout_height="40dp" />
+
+             <androidx.appcompat.widget.AppCompatButton
+                 android:id="@+id/btn_submit"
+                 style="@style/button_style"
+                 android:layout_gravity="center"
+                 android:text="Sửa" />
+         </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

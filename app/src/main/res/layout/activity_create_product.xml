@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.EditCategoryActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.categoryManagement.CategoryManagementActivity">
+
+        <!-- Include the title bar layout -->
+        <include
+            android:id="@+id/titlebar"
+            layout="@layout/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- RecyclerView for the list -->
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            app:layout_constraintTop_toBottomOf="@id/titlebar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:text="@string/product_name"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    style="@style/input_style"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="@string/product_name"
+                    android:inputType="text"
+                    android:textColor="@color/colorTextBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+                    android:text="Danh mục"
+                    style="@style/advanced_search_text_view" />
+
+                <Spinner
+                    android:id="@+id/spinner_categories"
+                    android:padding="10dp"
+                    android:background="@drawable/customized_spinner"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <!-- PRICE -->
+                <TextView
+                    android:text="@string/price"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_price"
+                    style="@style/input_style"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="@string/product_price"
+                    android:inputType="number"
+                    android:textColor="@color/colorTextBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+                    android:text="Ảnh sản phẩm"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_image"
+                    style="@style/input_style"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="Ảnh sản phẩm"
+                    android:textColor="@color/colorTextBlack" />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+                    android:text="@string/chatlieu"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_material"
+                    style="@style/input_style"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="@string/chatlieu"
+                    android:inputType="text"
+                    android:textColor="@color/colorTextBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <TextView
+                    android:text="Size"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_size"
+                    style="@style/input_style"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="@string/ram"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/colorTextBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+
+                <!--DESCRIPTION-->
+                <TextView
+                    android:text="@string/content"
+                    style="@style/advanced_search_text_view" />
+
+                <EditText
+                    android:id="@+id/edt_desc"
+                    style="@style/advanced_search_text_view"
+                    android:autofillHints="First Name"
+                    android:drawableStart="@drawable/ic_first_name"
+                    android:hint="@string/content"
+                    android:inputType="textMultiLine"
+                    android:lines="8"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextBlack" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_submit"
+                    style="@style/button_style"
+                    android:layout_gravity="center"
+                    android:text="@string/confirm" />
+            </LinearLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

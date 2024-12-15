@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView: Sắp xếp -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Trạng thái"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <!-- RadioGroup: ASC & DESC (vertical) -->
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <!-- RadioButton: DESC -->
+        <RadioButton
+            android:id="@+id/rb_waiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chờ xác nhận"
+            android:checked="true" />
+
+        <!-- RadioButton: ASC -->
+        <RadioButton
+            android:id="@+id/rb_pending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chờ lấy hàng"
+            android:layout_marginTop="8dp" />
+        <RadioButton
+            android:id="@+id/rb_delivering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chờ giao hàng"
+            android:layout_marginTop="8dp" />
+        <RadioButton
+            android:id="@+id/rb_completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã giao"
+            android:layout_marginTop="8dp" />
+        <RadioButton
+            android:id="@+id/rb_canceled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã huỷ"
+            android:layout_marginTop="8dp" />
+
+    </RadioGroup>
+
+    <!-- Các nút Clear và OK -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp">
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>
