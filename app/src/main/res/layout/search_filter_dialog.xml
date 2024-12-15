@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <!-- TextView: Sắp xếp -->
+    <TextView
+        android:id="@+id/tvSortLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sắp xếp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black" />
+
+    <!-- RadioGroup: ASC & DESC -->
+    <RadioGroup
+
+        android:id="@+id/rgSortOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+
+
+        <RadioButton
+            android:id="@+id/rb_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên A-Z" />
+        <RadioButton
+            android:id="@+id/rb_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Tên Z-A" />
+        <RadioButton
+            android:id="@+id/rb_price_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá giảm dần" />
+        <RadioButton
+            android:id="@+id/rb_price_asc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Giá tăng dần" />
+
+
+    </RadioGroup>
+
+    <!-- Các nút Clear và OK -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="16dp">
+
+<!--        <Button-->
+<!--            android:id="@+id/btnClear"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+<!--            android:text="Xoá" />-->
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>
