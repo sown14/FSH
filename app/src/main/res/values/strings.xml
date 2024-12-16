@@ -2,9 +2,9 @@
     <string name="fullname">Họ tên</string>
     <string name="username">Tên người dùng</string>
 
-    <string name="app_name">Wahoo</string>
-    <string name="application_name">Wahoo</string>
-    <string name="application_slogan">Mua hết ở Wahoo</string>
+    <string name="app_name">FSH</string>
+    <string name="application_name">FSH</string>
+    <string name="application_slogan">Mua hết ở FSH</string>
     <string name="login">Đăng nhập</string>
     <string name="application_avatar">Ảnh đại diện ứng dụng</string>
     <string name="email">Email</string>
@@ -104,7 +104,7 @@
     <string name="confirm_cart">Thanh toán</string>
     <string name="you_maybe_like">Có thể bạn sẽ thích</string>
     <string name="click_on_voucher">Nhấn vào mục Mã giảm giá ở cuối trang để hưởng miễn phí vận chuyển bạn nhé</string>
-    <string name="there_is_nothing_in_your_cart">Hông có gì trong giỏ hết…\n Lướt Wahoo, lựa hàng ngay đi</string>
+    <string name="there_is_nothing_in_your_cart">Hông có gì trong giỏ hết…\n Lướt FSH, lựa hàng ngay đi</string>
     <string name="checkout">Thanh toán</string>
     <string name="nguyen_thanh_phone">Nguyễn A</string>
     <string name="default_phone">0366777777</string>
@@ -124,7 +124,7 @@
     <string name="save">Lưu lại</string>
     <string name="are_you_sure_about_placing_order">Bạn có chắc chắn muốn đặt hàng không?</string>
     <string name="checkout_successfully">Đặt hàng thành công</string>
-    <string name="thank_you_for_using_wahoo">Cảm ơn bạn đã mua hàng tại Wahoo</string>
+    <string name="thank_you_for_using_wahoo">Cảm ơn bạn đã mua hàng tại FSH</string>
     <string name="please_prepare_enough_money_on_delivery_date">Vui lòng chuẩn bị số tiền tương ứng vào ngày giao hàng</string>
     <string name="pretend_delivery_date">Ngày giao hàng dự kiến:</string>
     <string name="for_more_information_about_your_order"><![CDATA[Để biết thêm chi tiết về trạng thái đơn hàng của bạn, vui lòng chọn Tài khoản > Đơn hàng của tôi]]></string>

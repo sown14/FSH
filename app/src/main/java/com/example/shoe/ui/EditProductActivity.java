@@ -168,7 +168,7 @@ public class EditProductActivity extends AppCompatActivity {
                     _alert("Cập nhật sản phẩm thành công");
 
                     ProductManagementActivity.getData();
-                  
+
                 }
                 else {
                     Log.d("EK", selectedStatus + "" );

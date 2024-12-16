@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 
 import com.example.shoe.MyApplication;
@@ -19,7 +20,7 @@ import com.example.shoe.ui.voucherManagement.VoucherManagementActivity;
 public class AdminPanelActivity extends AppCompatActivity {
 
 
-    Button btnLogout;
+    AppCompatButton btnLogout;
 
     CardView cardProduct, cardCategory, cardOrder, cardStatistics, cardUser, cardVoucher;
 

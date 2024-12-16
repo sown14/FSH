@@ -6,13 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.AdminPanelActivity">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
         android:orientation="vertical"
         android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo2"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FSH Store"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorRed"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                />
+        </LinearLayout>
+
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -29,12 +49,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/design_default_color_primary"
+                android:backgroundTint="@color/colorRed"
                 android:text="Đăng xuất"
+                android:textSize="20dp"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +98,7 @@
                         android:layout_height="64dp"
                         android:layout_gravity="center"
                         android:src="@drawable/ic_product" />
+
 
                     <TextView
                         android:layout_width="wrap_content"
